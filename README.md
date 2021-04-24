@@ -6,6 +6,9 @@ Module 9: Advanced Data Storage and Retrieval
 - We have successfully created the Flask app to display the temperatures for the dates along with the min, average, and max temperatures for a certain given range inputed by the user. Now W. Avy wants specific temperature trends for the months of June and December before opening a surf and ice cream shop. 
 ## Results
 June vs December Temperature Summary Stats
+
+![june_temps_summary](https://user-images.githubusercontent.com/79118630/115973760-7ded2a80-a525-11eb-9599-208e582a6533.png)  ![december_temps_summary](https://user-images.githubusercontent.com/79118630/115973762-82b1de80-a525-11eb-973b-88612f6532c3.png)
+
 - June has 1700 temperature recordings and December has 1517 temperature recordings. This shouldn't come as a big problem since both have many plenty recordings. However, this could possibly mean that there has been an error in entering the data or that December is observed much less.
 - June has a min of 64°F, an average of 74.9°F and a max of 85°F ; December has a min of 56°F, an average of 71°F and a max of 83°F. Since June is in the summer and December is in the winter in Hawaii, this is not a surprise that June has overall higher temperatures.
 - Another result that should be noted is that in June, the IQR is between 73°F and 77°F ; and in December, the IQR is between 69°F and 74°F. The actually range differences are 3 and 4, this shows that June even with a min of 64°F, 50% of the tiime the weather stays above 70°F. 
